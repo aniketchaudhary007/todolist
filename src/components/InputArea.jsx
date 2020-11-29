@@ -13,7 +13,7 @@ function InputArea(props) {
       <input onChange={handleChange} type="text" value={inputText} />
       <button onClick={() => {
         props.onAdd(inputText);
-      setInputText("");
+        setInputText("");
       }}>
         <span>Add</span>
       </button>
